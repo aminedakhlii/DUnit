@@ -11,7 +11,7 @@ class ExampleClass1 {
     return field; 
   }
 
-  void setLasmer(int field){
+  void setField(int field){
     this.field = field; 
   }
 }
@@ -29,7 +29,7 @@ class ExampleClass2 {
     return field2; 
   }
 
-  void setLasmer(int field){
+  void setField(int field){
     this.field2 = field; 
   }
 }
