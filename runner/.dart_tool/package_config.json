@@ -3,15 +3,15 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-9.0.0",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-12.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/analyzer-0.39.0",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/analyzer-0.40.7",
       "packageUri": "lib/",
-      "languageVersion": "2.2"
+      "languageVersion": "2.7"
     },
     {
       "name": "args",
@@ -26,10 +26,16 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "build",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/build-1.2.2",
+      "name": "boolean_selector",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.3"
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "build",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/build-1.6.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.9"
     },
     {
       "name": "build_cli",
@@ -45,9 +51,9 @@
     },
     {
       "name": "build_config",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/build_config-0.4.2",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/build_config-0.4.5",
       "packageUri": "lib/",
-      "languageVersion": "2.6"
+      "languageVersion": "2.9"
     },
     {
       "name": "build_daemon",
@@ -57,21 +63,21 @@
     },
     {
       "name": "build_resolvers",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/build_resolvers-1.3.3",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/build_resolvers-1.5.3",
       "packageUri": "lib/",
-      "languageVersion": "2.3"
+      "languageVersion": "2.9"
     },
     {
       "name": "build_runner",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/build_runner-1.9.0",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/build_runner-1.11.1+1",
       "packageUri": "lib/",
-      "languageVersion": "2.6"
+      "languageVersion": "2.10"
     },
     {
       "name": "build_runner_core",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/build_runner_core-5.1.0",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/build_runner_core-6.1.7",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
+      "languageVersion": "2.9"
     },
     {
       "name": "built_collection",
@@ -98,6 +104,12 @@
       "languageVersion": "2.7"
     },
     {
+      "name": "cli_util",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/cli_util-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "clock",
       "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0",
       "packageUri": "lib/",
@@ -116,16 +128,16 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "console",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/console-3.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
       "name": "convert",
       "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "1.17"
+    },
+    {
+      "name": "coverage",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/coverage-0.15.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
     },
     {
       "name": "crypto",
@@ -134,16 +146,10 @@
       "languageVersion": "2.3"
     },
     {
-      "name": "csslib",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/csslib-0.16.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.2"
-    },
-    {
       "name": "dart_style",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/dart_style-1.3.3",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/dart_style-1.3.10",
       "packageUri": "lib/",
-      "languageVersion": "2.3"
+      "languageVersion": "2.9"
     },
     {
       "name": "file",
@@ -158,12 +164,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "front_end",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/front_end-0.1.28",
-      "packageUri": "lib/",
-      "languageVersion": "2.2"
-    },
-    {
       "name": "glob",
       "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/glob-1.2.0",
       "packageUri": "lib/",
@@ -176,18 +176,6 @@
       "languageVersion": "2.0"
     },
     {
-      "name": "html",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/html-0.14.0+4",
-      "packageUri": "lib/",
-      "languageVersion": "2.3"
-    },
-    {
-      "name": "http",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/http-0.12.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.4"
-    },
-    {
       "name": "http_multi_server",
       "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/http_multi_server-2.2.0",
       "packageUri": "lib/",
@@ -195,9 +183,9 @@
     },
     {
       "name": "http_parser",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.3"
+      "languageVersion": "2.12"
     },
     {
       "name": "intl",
@@ -219,25 +207,19 @@
     },
     {
       "name": "json_annotation",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/json_annotation-3.1.1",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/json_annotation-4.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
-    },
-    {
-      "name": "kernel",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/kernel-0.3.28",
-      "packageUri": "lib/",
-      "languageVersion": "2.2"
+      "languageVersion": "2.12"
     },
     {
       "name": "logging",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/logging-0.11.4",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/logging-1.0.2",
       "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "languageVersion": "2.12"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.11",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -249,15 +231,9 @@
     },
     {
       "name": "mime",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/mime-0.9.7",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/mime-1.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
-      "name": "mustache_template",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/mustache_template-1.0.0+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "languageVersion": "2.12"
     },
     {
       "name": "node_interop",
@@ -272,16 +248,16 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "node_preamble",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/node_preamble-1.4.13",
+      "packageUri": "lib/",
+      "languageVersion": "1.24"
+    },
+    {
       "name": "package_config",
       "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/package_config-1.9.3",
       "packageUri": "lib/",
       "languageVersion": "2.7"
-    },
-    {
-      "name": "package_resolver",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/package_resolver-1.0.10",
-      "packageUri": "lib/",
-      "languageVersion": "2.1"
     },
     {
       "name": "path",
@@ -294,6 +270,12 @@
       "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/pedantic-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/petitparser-4.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.13"
     },
     {
       "name": "pool",
@@ -314,16 +296,22 @@
       "languageVersion": "2.7"
     },
     {
-      "name": "recase",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/recase-3.0.1",
+      "name": "shelf",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/shelf-1.2.0",
       "packageUri": "lib/",
-      "languageVersion": "2.6"
+      "languageVersion": "2.12"
     },
     {
-      "name": "shelf",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/shelf-0.7.9",
+      "name": "shelf_packages_handler",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.8"
+    },
+    {
+      "name": "shelf_static",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/shelf_static-0.2.9+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
     },
     {
       "name": "shelf_web_socket",
@@ -333,9 +321,21 @@
     },
     {
       "name": "source_gen",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/source_gen-0.9.5",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/source_gen-0.9.10+2",
       "packageUri": "lib/",
-      "languageVersion": "2.5"
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "source_map_stack_trace",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/source_map_stack_trace-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "source_maps",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/source_maps-0.10.10",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "source_span",
@@ -357,9 +357,9 @@
     },
     {
       "name": "stream_transform",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/stream_transform-1.2.0",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/stream_transform-2.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.6"
+      "languageVersion": "2.12"
     },
     {
       "name": "string_scanner",
@@ -370,6 +370,24 @@
     {
       "name": "term_glyph",
       "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "test",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/test-1.16.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "test_api",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "test_core",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/test_core-0.3.15",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -386,8 +404,8 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "vector_math",
-      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0",
+      "name": "vm_service",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/vm_service-6.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -404,19 +422,25 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "webkit_inspection_protocol",
+      "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/webkit_inspection_protocol-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "yaml",
       "rootUri": "file:///home/amine/.pub-cache/hosted/pub.dartlang.org/yaml-2.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.4"
     },
     {
-      "name": "flutter_ast",
+      "name": "runner",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-12-08T22:23:56.974314Z",
+  "generated": "2021-12-08T14:49:04.340559Z",
   "generator": "pub",
   "generatorVersion": "2.13.1"
 }
