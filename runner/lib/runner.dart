@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:path/path.dart';
+
 class Runner {
 
   String? testDir;
@@ -19,8 +21,14 @@ class Runner {
   }
 
   String getBody(String method){
-    var re = RegExp(r"[\t(),]");
-    var body = method.split(re).last;
+    //var re = RegExp(r"[\t(),]");
+    var split = (method.split(getName(method) + '()'));
+    var body = ""; 
+    for (int i = 1; i < split.length; i++) {
+      body +=split[i];
+    }
+    //var body = method.split(re).last;
+    print(body);
     return body;
   }
 
@@ -29,7 +37,7 @@ class Runner {
     return testStr; 
   }
 
-  generateMain(methods) async {
+  generateMain(f,methods) async {
     String content = "import 'package:test/test.dart';\n\nvoid main(){\n";
     for (var method in methods){
       content += runnable(getName(method), getBody(method)); 
@@ -37,7 +45,7 @@ class Runner {
     }
     content += "}\n";
     print(content);
-    var file = await File(testDir! + 'mainTest' +'.dart').writeAsString(content);
+    var file = await File(testDir! + 'mainTest' + f).writeAsString(content);
   }
 
   inject() {
@@ -56,7 +64,7 @@ class Runner {
           methods[i] = methods[i].replaceAll('  ', '');
           if(i == methods.length - 1) methods[i] = methods[i].substring(0, methods[i].length - 1);
         }
-        generateMain(methods);
+        generateMain(basename(f.path),methods);
       });
     });
   }
