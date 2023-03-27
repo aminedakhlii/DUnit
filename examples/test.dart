@@ -1,17 +1,17 @@
 class ExampleClass1 {
-  int field;
+  int? field;
 
-  ExampleClass1({this.field}); 
+  ExampleClass1({this.field});
 
   method(int param) {
-    return param; 
+    return param;
   }
 
-  int getField(){
-    return field; 
+  int getField() {
+    return field!;
   }
 
-  void setField(int field){
-    this.field = field; 
+  void setField(int field) {
+    this.field = field;
   }
 }
