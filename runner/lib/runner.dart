@@ -43,8 +43,7 @@ class Runner {
       content += "\n";
     }
     content += "}\n";
-    print(content);
-    var file = await File(testDir! + 'mainTest' + f).writeAsString(content);
+    var file = await File(testDir + 'mainTest' + f).writeAsString(content);
   }
 
   inject() {
@@ -56,6 +55,7 @@ class Runner {
       File(f.path).readAsString().then((String contents) {
         content = contents;
         var arr = content.split("//test methods\n");
+        print(arr);
         var methods = arr[1].split("@test");
         methods.removeAt(0);
         for (int i = 0; i < methods.length; i++) {

@@ -10,13 +10,15 @@ class FileGenerator {
     for (var c in inputJSON) {
       String filename = c["class"] + "Test";
       String methods =
-          "const test = 'TEST';\nclass " + filename + "{\n//test methods\n";
+          "const test = 'TEST';\nconst init = 'BEFORE';\nconst tearDown = 'AFTER';\nclass " + filename + "{\n//test methods\n";
+      methods = methods + '\n  @init\n  before' + '(){\n\n  }\n';
       for (var m in c["methods"]) {
         methods = methods + '\n  @test\n  Test' + m['name'] + '(){\n\n  }\n';
       }
+      methods = methods + '\n  @tearDown\n  after' + '(){\n\n  }\n';
       methods = methods + '\n}\n';
-      var file = await File('../runner/lib/tests/' + filename + '.dart')
-          .writeAsString(methods);
+      var file = await File('../runner/lib/tests/' + filename + '.dart').create(recursive: true).then((value) => 
+          value.writeAsString(methods));
     }
   }
 }
