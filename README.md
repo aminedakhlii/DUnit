@@ -1,4 +1,4 @@
-# DUnit
+# DUnit PRO MAX
 A testing framework for the dart programming language
 
 # How it is made
@@ -25,6 +25,11 @@ const test = 'TEST';
 class ExampleClass1Test{
 //test methods
 
+  @init
+  before(){
+
+  }
+
   @test
   Testmethod(){
 
@@ -37,6 +42,11 @@ class ExampleClass1Test{
 
   @test
   TestsetField(){
+
+  }
+  
+  @tearDown
+  after(){
 
   }
 
@@ -58,6 +68,16 @@ test('TestsetField', () {"your written tests here"});
 ```
 
 this file is then runnable if you copy it to your flutter project.
+
+4. To generate tests using the GPT model run: 
+
+``` python3 chatgpt.py ```
+
+5. to get the coverage run: 
+
+``` ./coverage.sh ``` 
+
+in the runner folder 
 
 # Future improvments
 
